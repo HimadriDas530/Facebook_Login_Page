@@ -1,0 +1,132 @@
+body{
+    background-color: #f0f2f5;
+}
+
+#total{
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+   
+}
+#form{
+    height: 314.83px;
+    width: 396px;
+    background-color: white;
+    margin: 4px auto;
+    padding: 10px 0px 24px;
+    position: relative;
+    top: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+input{
+    width: 330px;
+    height: 22px;
+    padding: 14px 16px;
+    border: 0.8px solid #dddfe2;
+    font-size: 17px;
+    caret-color: #1b74e4;
+    
+   
+}
+.input{
+    width: 364px;
+    height: 51.60px;
+    padding: 6px 0px;
+    margin: auto;
+}
+#log{
+    width: 364px;
+    height: 48px;
+    padding:0px 16px;
+    border: 0;
+    background-color: #1877f2;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+#login{
+    padding: 6px 0 0;
+}
+a{
+    width: auto;
+    height: auto;
+    font: 14px helvetica,arial,sans-serif;
+    color: #1877f2;
+    text-decoration: none;
+}
+#forgot{
+    height: 18.75px;
+    margin:  16px 0 0 0;
+}
+#line{
+    width: 364px;
+    height: 0.2px;
+    margin: 20px 16px;
+    background-color: gray;
+    display: flex;
+    opacity: 0.3;
+}
+#createbut{
+    width: 192px;
+    height: 48px;
+    padding: 0 16px;
+    border: 0;
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+    background-color: #42b72a;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.4s ease ;
+}
+#create{
+    height: 48px;
+    padding: 6px 0 0 0;
+}
+.all{
+    border-radius: 6px;
+}
+
+img{
+    width: 300px;
+}
+p{
+    font-size: larger;
+    font-size: 24px;
+    line-height: 28px;
+    width: 396px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: auto 24px;
+    
+}
+input::placeholder{
+    /* color:#808080; */
+    color: #999999;
+}
+input:focus, input:active{
+    outline:0.8px solid  #1b74e4;
+    box-shadow: 0.2px 0.2px 1px 2px rgba(27, 116, 228,0.3);
+   
+}
+input:focus::placeholder{
+    color: #cccccc;
+}
+#createbut:hover{
+    background-color: #389922;
+}
+#last{
+    position: relative;
+    top: 50px;
+    font-size: 14px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+b:hover{
+    text-decoration: underline;
+}
